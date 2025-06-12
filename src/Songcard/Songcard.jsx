@@ -7,7 +7,8 @@ const Songcard = ({ info }) => {
       <div className="card">
         <img src={info.poster} alt={info.name || 'Song Poster'} />
       </div>
-      <span>{info.name}</span>
+    
+       <span> {info.name} </span>
     </div>
   );
 };

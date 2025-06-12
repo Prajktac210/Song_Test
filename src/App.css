@@ -12,8 +12,9 @@
 }
 
 .title {
-    color: rgb(43, 14, 14);
+    color: rgb(3, 97, 97);
     text-align: center;
     padding-top: 20px;
     font-size: 2rem;
+    text-transform: capitalize;
 }
