@@ -1,0 +1,29 @@
+.main-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card {
+    height: 150px;
+    width: 250px;
+    margin: 10px;
+    background-color: aquamarine;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-card span {
+    margin-top: 8px;
+}
